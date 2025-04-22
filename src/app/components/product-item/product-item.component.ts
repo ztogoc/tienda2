@@ -17,7 +17,7 @@ import { createUrlSlug } from '../../utils/url.utils';
       </a>
       <div class="card-body">
         <h3 class="card-title">
-          <a [routerLink]="['/product', createUrlSlug(product.title)]" class="product-title-link">
+          <a [routerLink]="['/product', createUrlSlug(product.title), product.id]" class="product-title-link">
             {{ product.title }}
           </a>
         </h3>

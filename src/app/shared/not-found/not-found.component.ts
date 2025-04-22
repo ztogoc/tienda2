@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: false,
   template: `
     <p>
-      not-found works!
+      ERROR 404 PÁGINA NO ESCONTRADA
     </p>
   `,
   styles: ``
